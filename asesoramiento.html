@@ -49,18 +49,70 @@
         </div>
       </nav>
    </nav>
-   <div class="contenedor"><h1 class="mt-4">ASESORAMIENTO GYM BRO</h1></div>
-   <div class="contenedor"><h6>Servicio de asesoramiento</h6></div>
-   <div class="contenedor"><p class="m-5">Si desea hacer consultas sobre maquinas, para que funcionan, como funcionan, asesoramiento nutricional o training personal.</p></div>
-   <div class="contenedor"><h3>MAQUINAS ASESORAMIENTO</h3></div>
-   <div class="contenedor"><p class="m-5">Si tienes alguna duda sobre que maquina comprar, cual es la mejor opcion para tu caso contactanos</p></div>
-   <div class="contenedor"><h3>NUTRICIONISTA</h3></div>
-   <div class="contenedor"><p class="m-5">Gym bros cuenta con varios nutricionista en nuestro equipo de trabajo no dudes en contactarnos para mas información </p></div>
-   <div class="contenedor"><h3>PERSONAL TRAINING</h3></div>
-   <div class="contenedor"><p class="m-5">Gym bros cuenta con varios training personales, ellos los ayudaran con una rutina personalizada dependiendo los logros que usted quiera lograr</p></div>
-   <div class="contenedor"><h6>CONTACTO</h6></div>
-   <div class="contenedor"><p class="m-5">Contacto@gymbros.cl</p></div>
-   <div class="contenedor"><p>+569 1111 1111</p></div>
+   <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+      <div class="valid-feedback">
+        Bien!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+      <div class="valid-feedback">
+        Bien!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Nombre de Usuario</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Porfavor introduzca nombre de usuario!!!.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">City</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">State</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>...</option>
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom05" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
    
 <footer> 
   <div class="container-fluid">
@@ -77,6 +129,7 @@
     </div>
   </div>
 </footer>
+    <script src="validaciones.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>

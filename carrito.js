@@ -19,20 +19,3 @@ const productos = [
 
 ];
 
-let contadorCarrito = 0;
-const carrito = [];
-
-const productoCatalogoHTML = (producto) => 
-  {const text = "";
-
-  
-  }
-const productoCarritoHTML = (producto) => "";
-
-const mostrarCatalogo = () => {};
-const mostrarCarrito = () => {};
-
-const botonesCatalogo = () => {};
-const botonesCarrito = () => {};
-
-mostrarCatalogo();

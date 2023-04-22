@@ -37,3 +37,8 @@ col{
 .contenedor{
   text-align: center;
 }
+
+.ajusteslider{
+  width: 450px;
+  align-items: center;
+}

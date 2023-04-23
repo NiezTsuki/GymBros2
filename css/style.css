@@ -38,7 +38,14 @@ col{
   text-align: center;
 }
 
-.ajusteslider{
-  width: 450px;
-  align-items: center;
+.c-item{
+   height:480px;
+
+}
+
+.c-img{
+  height:100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+
 }

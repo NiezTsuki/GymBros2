@@ -4,7 +4,7 @@
 
 .fuente {
   font-family: "Anton", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .footer {
@@ -46,6 +46,27 @@ col {
   height: 100%;
   object-fit: cover;
   filter: brightness(0.6);
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.nav-link {
+  transition: all 0.2s;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  /*border-bottom: 2px solid white;*/
+}
+
+.card:hover {
+  transform: scale(1.04);
+}
+
+.card {
+  height: -100;
 }
 
 /*# sourceMappingURL=style.css.map */
